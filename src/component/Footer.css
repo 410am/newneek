@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+* {
+    background-color: #eae7de;
+    /* border: 1px solid black; */
+    font-family: 'Nanum Gothic';
+}
+
+.footer__ {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.footer__logo {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    width: 55%;
+}
+
+.footer__nav1 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 15%;
+}
+
+.footer__nav2 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 15%;
+}
+
+.footer__nav3 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 15%;
+}
+
+.__nav {
+    /* border: 1px solid black; */
+    margin: 4px;
+}
+
+
+/* 주소 영역 */
+
+.address__ {
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 10px;
+}
+
+.__address {
+    /* border: 1px solid black; */
+    font-size: 13px;
+    margin: 10px;
+}
+
+.copyright__ {
+    /* border: 1px solid black; */
+    font-size: 8px;
+    margin: 10px;
+}
+
+#__address1 {
+    margin-top: 52px;
+}
+
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
