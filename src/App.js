@@ -1,8 +1,14 @@
 import './App.css';
+import { Banner } from './components/Banner.jsx';
+
 
 function App() {
   return (
-   <div className="text-3xl font-bold underline">도화지</div> 
+   <div className=" font-bold ">
+    <Banner />
+    
+    </div> 
+    
   );
 }
 
