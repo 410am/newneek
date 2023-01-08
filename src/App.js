@@ -1,8 +1,8 @@
 import './App.css';
-import Banner from './src/components/Banner.jsx';
-import Main from './src/components/Main.jsx';
-import Aside from './src/components/Aside.jsx';
-import Footer from './src/components/Footer.jsx';
+import Banner from './components/Banner.jsx';
+import Main from './components/Main.jsx';
+import Aside from './components/Aside.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
