@@ -12,12 +12,10 @@
 
 ---
 
-
-
 ![header image](https://user-images.githubusercontent.com/116495744/211224397-2e2360cf-1231-4b56-99cd-f0791448abf0.png)
 ![main image](https://user-images.githubusercontent.com/116495744/211224467-ac9c2afc-b877-49d1-a08c-ca2898c1e63c.png)
 ![aside image](https://user-images.githubusercontent.com/116495744/211224540-f0c70794-9924-42ba-9d30-72ec49dba39a.png)
-
+![footer image](https://user-images.githubusercontent.com/116495744/211225698-4d7112a7-61d8-4ee9-a602-c91d0933d80d.png)
 
 ---
 
