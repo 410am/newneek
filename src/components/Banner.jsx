@@ -4,23 +4,23 @@ import './Banner.css'
 
 //"https://www.flaticon.com/kr/free-icons/" title="확대경 아이콘">확대경 아이콘  제작자: Ayub Irawan - Flaticon
 //"https://www.flaticon.com/kr/free-icons/" title="사람 아이콘">사람 아이콘  제작자: spaceman.design - Flaticon
-export const Banner = props => {
+const Banner = props => {
     return (
-        <header className='banner bg-background__color h-550px object-contain relative'>
-            <div className='banner__head justify-center object-none text-center h-250px' >
+        <header className='relative object-contain banner bg-background__color h-550px'>
+            <div className='justify-center object-none text-center banner__head h-250px' >
                 <br />
                 <img className='head__img border-5 w-[310px] inline mb-2 bg-center' src="/images/header.png" alt='header' />
-                <button className='banner__button border-5 float-right inline cursor-pointer bg-background__color outline-black font-thin'  ><img className='button__img ' src="/images/people.png" alt="people" /></button>
-                <button className='banner__button border-5 float-right inline cursor-pointer bg-background__color outline-black font-thin' ><img className='button__img ' src="/images/serch.png" alt="serch" /></button>
+                <button className='inline float-right font-thin cursor-pointer banner__button border-5 bg-background__color outline-black'  ><img className='button__img ' src="/images/people.png" alt="people" /></button>
+                <button className='inline float-right font-thin cursor-pointer banner__button border-5 bg-background__color outline-black' ><img className='button__img ' src="/images/serch.png" alt="serch" /></button>
                 <br />
                 <br />
 
-                <hr className='border border-solid border-black' />
+                <hr className='border border-black border-solid' />
                 <br />
-                <h1 className='banner__title text-4xl mt-3 mb-5'> 우리가 시간이 없지, 세상이 안궁금하냐!</h1>
+                <h1 className='mt-3 mb-5 text-4xl banner__title'> 우리가 시간이 없지, 세상이 안궁금하냐!</h1>
             </div>
-            <hr className='border border-solid 1px border-black' />
-            <div className='banner__middle clear-both'>
+            <hr className='border border-black border-solid 1px' />
+            <div className='clear-both banner__middle'>
 
 
                 <div className='flex justify-around'>
@@ -35,19 +35,19 @@ export const Banner = props => {
                         <br />
                         <div>
                             <form>
-                                <input type="text" className='w-80 h-10' placeholder="     이메일 주소"></input>
+                                <input type="text" className='h-10 w-80' placeholder="     이메일 주소"></input>
                                 <br />
-                                <input type="text" className='w-80 h-10 mt-2' placeholder="     닉네임"></input>
+                                <input type="text" className='h-10 mt-2 w-80' placeholder="     닉네임"></input>
                                 <br />
                                 <label><input type="checkbox" className='mt-4 ' />  개인정보 수집·이용에 동의합니다</label>
                                 <br />
                                 <label><input type="checkbox" className='mt-2' />  광고성 정보 수신에 동의합니다</label>
                                 <br />
                                 <br />
-                                <button className='bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded'>
+                                <button className='px-4 py-2 font-semibold text-blue-700 bg-transparent border border-black rounded hover:bg-blue-500 hover:text-white hover:border-transparent'>
                                     뉴스레터 무료구독하기
                                 </button>
-                                <button className='ml-3 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded'>
+                                <button className='px-4 py-2 ml-3 font-semibold text-blue-700 bg-transparent border border-black rounded hover:bg-blue-500 hover:text-white hover:border-transparent'>
                                     앱 다운로드하기 →
                                 </button>
                             </form>
@@ -56,7 +56,7 @@ export const Banner = props => {
                         </div>
                     </div>
                     <div className='inline'>
-                        <img className='middle__img h-full float-right ' src="/images/middle1.png" alt="middle" />
+                        <img className='float-right h-full middle__img ' src="/images/middle1.png" alt="middle" />
                     </div>
 
 
@@ -70,3 +70,4 @@ export const Banner = props => {
     )
 }
 
+export default Banner
